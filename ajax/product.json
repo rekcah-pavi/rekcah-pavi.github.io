@@ -1,0 +1,143 @@
+[
+    {
+        "type":"trend",
+        "img": "IMG/apple.jpg",
+        "name": "Apple Juice",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"trend",
+        "img": "IMG/Matcha-Avocado-Mint-Chip.jpg",
+        "name": "Matcha Smoothie",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"trend",
+        "img": "IMG/Green-Juice-Recipe-007-735x919.webp",
+        "name": "Green Juice",
+        "rating": 4,
+        "price": 100
+    },
+    {
+        "type":"trend",
+        "img": "IMG/Carrot-Juice-003.webp",
+        "name": "Carrot Juice",
+        "rating": 4,
+        "price": 100
+    },
+
+
+    
+
+    {
+        "type":"sugar",
+        "img": "IMG/beetroot carrot.png",
+        "name": "Carrot Juice",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"sugar",
+        "img": "IMG/30012218-8_2-real-activ-100-mixed-fruit-juice.webp",
+        "name": "Mixed Fruit Juice",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"sugar",
+        "img": "IMG/imagessdfsd.jpeg",
+        "name": "Cranberry Juice ",
+        "rating": 4,
+        "price": 100
+    },
+    {
+        "type":"sugar",
+        "img": "IMG/MM-ZS_StrawberryLemonade_52oz.webp",
+        "name": "Strawberry Juice",
+        "rating": 4,
+        "price": 100
+    },
+    {
+        "type":"sugar",
+        "img": "IMG/images45654.jpeg",
+        "name": "Mango Juice",
+        "rating": 4,
+        "price": 100
+    },
+    {
+        "type":"sugar",
+        "img": "IMG/640x64dfg0.jpg",
+        "name": "Sainsbury Juice",
+        "rating": 4,
+        "price": 100
+    },
+    {
+        "type":"sugar",
+        "img": "IMG/Mixed_Fruit.jpg",
+        "name": "Mixed Fruit Juice",
+        "rating": 4,
+        "price": 100
+    },
+
+
+
+    {
+        "type":"soup",
+        "img": "IMG/25097.jpg",
+        "name": "oliver soup",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"soup",
+        "img": "IMG/imafgfdgges.jpeg",
+        "name": "Iron soup",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"soup",
+        "img": "IMG/beer-cheese-soup.jpg",
+        "name": "Beer cheese Soup",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"soup",
+        "img": "IMG/Homemade-Vegetable-Soup.jpg",
+        "name": "Veg Soup",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"soup",
+        "img": "IMG/Mushroom-Soup-in-bowl-SQ.webp",
+        "name": "Mushroom Soup",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"soup",
+        "img": "IMG/chicken-soup-recipe-3.jpg",
+        "name": "Chicken Soup",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"soup",
+        "img": "IMG/spaghetti-squash-soup-.jpg",
+        "name": "Squash Soup",
+        "rating": 5,
+        "price": 200
+    },
+    {
+        "type":"soup",
+        "img": "IMG/336138-basic-chicken-soup-.jpg",
+        "name": "Mutton Soup",
+        "rating": 5,
+        "price": 200
+    }
+
+]

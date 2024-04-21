@@ -1,0 +1,84 @@
+
+
+
+#log{
+    background-image: url("../IMG/4a6617f22bfee5c25be46cd68129558d.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+
+fieldset {
+    background-color:rgba(255, 255, 255, 0.171);
+    transition: transform 0.3s ease;
+    width: 500px;
+    margin: 100px auto;
+    border: 2px solid #00000049;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px #000000;
+}
+
+fieldset:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: #d3840d;
+}
+
+
+
+#sign{
+    display: none;
+}
+
+
+
+/* Mobile Style */
+
+@media screen and (max-width: 600px) {
+    fieldset {
+        margin: 50px auto;
+    }
+
+    legend {
+        width: 250px;
+    }
+}
+
+ 

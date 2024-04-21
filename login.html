@@ -1,0 +1,106 @@
+<!DOCTYPE html >
+<html >
+	<head>
+		<title>Login</title>
+		<link href="CSS/style.css" rel="stylesheet">
+		<link href="CSS/login.css" rel="stylesheet">
+	</head>
+
+<body>
+
+<div id="header">
+<script src="JS/header.js"></script>
+</div>
+
+<section id="log">
+<fieldset>
+
+
+<div id="login">
+
+
+<form id="login" name="login" action="dash.html">
+
+	<table  width="478" class="bold">
+		<tr>
+		
+			<td>
+				<input type="email" required placeholder="Username">
+			</td>
+		</tr>
+
+		<tr>
+		
+			<td>
+				<input type="Password" required placeholder="Password">
+			</td>
+		</tr>
+
+
+
+</table>
+<input type="submit" value="Login">
+<input type="button" value="Create New account" onclick="show_sign()">
+
+</form>
+
+</div>
+
+
+<div id="sign">
+
+
+	<form id="signup" name="signup" method="post" action="" onsubmit="return check_sign()" >
+
+	<table  width="478" border="0" class="bold">
+		<tr>
+			<td>
+				<input type="text" id="txtFullName" required placeholder="Full name">
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<input type="email" id="txtEmail" required placeholder="Email Address">
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<input type="Password" id="txtPassword" minlength="8" required placeholder="Password">
+			</td>
+		</tr>
+
+
+		<tr>
+			<td>
+				<input type="Password" id="txtConfirmPassword" required placeholder="Confirm Password">
+			</td>
+		</tr>
+		
+
+
+
+</table>
+<input type="reset" value="Reset Values">
+<input type="submit" value="Sign Up" onclick="">
+<input type="button" value="Login Page" onclick="show_login()">
+
+
+</form>
+
+</div>
+
+
+</fieldset>
+
+</section>
+
+
+<div id="footer">
+<script src="JS/footer.js"></script>
+</div>
+
+<script src="JS/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard</title>
+<link href="CSS/style.css" rel="stylesheet">
+<link href="CSS/dash.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="header">
+<script src="JS/header.js"></script>
+</div>
+
+<section id="dash">
+<div class="container">
+    <div class="card">
+        <h2>My Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <tr>
+                    <td><strong>Apple Juice</strong></td>
+                    <td>100 Rs</td>
+                    <td>3</td>
+                    <td>300 Rs</td>
+                    <td><span class="remove-item" >Remove</span></td>
+                </tr>
+                <tr>
+                    <td><strong>Mixed Berry Smoothie</strong></td>
+                    <td>200 Rs</td>
+                    <td>2</td>
+                    <td>400 Rs</td>
+                    <td><span class="remove-item" >Remove</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Total: 700 Rs</p>
+        <button>Proceed to Checkout</button>
+    </div>
+
+    <div class="card">
+        <h2>Recent Orders</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Order #</th>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Orange Juice</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Apple Juice</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Mixed Berry Smoothie</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+        <button>View All Orders</button>
+    </div>
+
+    <div class="card">
+        <h2>Account Information</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Full Name:</td>
+                    <td><input type="text"  value="pavi pavi"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email"  value="rkpavi06@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="tel"  value="+94771111111"></td>
+                </tr>
+            </tbody>
+        </table>
+    <button>Save Changes</button>
+    </div>
+
+    <div class="card">
+        <h2>Address Information</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Country:</td>
+                    <td><input type="text"  value="Srilanka"></td>
+                </tr>
+                <tr>
+                    <td>Province:</td>
+                    <td><input type="text"  value="North"></td>
+                </tr>
+                <tr>
+                    <td>District:</td>
+                    <td><input type="text"  value="jaffna"></td>
+                </tr>
+                <tr>
+                    <td>Area:</td>
+                    <td><input type="text"  value="Kanthar madam"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text"  value="204 Arasadi Rd, Jaffna 40000"></td>
+                </tr>
+                <tr>
+                    <td>Zip Code:</td>
+                    <td><input type="text"  value="40000"></td>
+                </tr>
+            </tbody>
+        </table>
+    <button>Save Changes</button>
+    </div>
+</div>
+</section>
+
+
+
+<div id="footer">
+<script src="JS/footer.js"></script>
+</div>
+</body>
+</html>
