@@ -18,7 +18,7 @@ div.innerHTML = `
 	
 			<td class="right paa bold">
 			  <span >
-				<a href="home.html">HOME </a>
+				<a href="index.html">HOME </a>
 			  </span> 
 			  
 			<span>
