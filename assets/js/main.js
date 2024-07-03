@@ -51,7 +51,15 @@
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
-      preloader.remove();
+      const images = document.querySelectorAll('img[data-src]');
+        images.forEach(img => {
+            const tempImg = new Image();
+            tempImg.src = img.getAttribute('data-src');
+            tempImg.onload = () => {
+                img.src = tempImg.src;
+                img.classList.remove('placeholder');
+            };
+        });
     });
   }
 
@@ -87,6 +95,7 @@
       mirror: false
     });
   }
+  //aosInit();
   window.addEventListener('load', aosInit);
 
   /**
