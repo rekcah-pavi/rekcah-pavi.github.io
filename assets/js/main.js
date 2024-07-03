@@ -227,3 +227,6 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
+preloader.remove();
