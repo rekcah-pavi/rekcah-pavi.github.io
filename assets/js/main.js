@@ -51,6 +51,7 @@
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
+      preloader.remove();
       const images = document.querySelectorAll('img[data-src]');
         images.forEach(img => {
             const tempImg = new Image();
@@ -238,4 +239,3 @@
 })();
 
 
-preloader.remove();
