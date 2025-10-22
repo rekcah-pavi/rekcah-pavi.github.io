@@ -703,7 +703,7 @@ section,
 # Resume Section
 --------------------------------------------------------------*/
 .resume .resume-title {
-  color: var(--heading-color);
+  color: var(--accent-color);
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -722,7 +722,7 @@ section,
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: var(--accent-color);
   margin-bottom: 10px;
 }
 
